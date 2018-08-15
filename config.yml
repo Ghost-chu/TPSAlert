@@ -1,0 +1,22 @@
+strings:
+  Unknown: §7未知
+  Good: §a非常流畅
+  Warning: §e略微卡顿
+  Bad: §c非常卡顿
+message:
+  TPSChanged: "§b服务器TPS状态改变:  "
+  Arrow: " §d-> "
+  Advice: "§b建议:§d"
+advice:
+  Unknown: "currentTPS不应为Unknown 请联系服务器管理员"
+  Good: "服务器当前运行状态良好"
+  Warning: "服务器目前出现略微卡顿 建议暂时关闭大型红石机械 收起宠物 减缓跑图速度"
+  Bad: "服务器目前非常卡顿 建议收回您的宠物 停止大型红石机械 暂停跑图"
+settings:
+  checktime: 600
+  #ticks
+limits:
+   #TPS >= vault
+   Good: 18.25
+   Warning: 17.49
+   #Why no have bad? Haha
