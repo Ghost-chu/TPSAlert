@@ -39,6 +39,7 @@ public class Main extends JavaPlugin implements Listener {
     	Warning=getConfig().getString("strings.Warning");
     	Bad=getConfig().getString("strings.Bad");
     	lastTPSstatus = Unknown;
+    	new Metrics(this); //bStats
     	new BukkitRunnable() {
 			
 			@Override
@@ -88,7 +89,7 @@ public class Main extends JavaPlugin implements Listener {
     	if(level==Bad) {
     		return getConfig().getString("advice.Bad");
     	}
-    	return "ÄÚ²¿´íÎó";
+    	return "Error";
     }
 	private Class<?> getNMSClass(String className) {
         try {
